@@ -8,6 +8,7 @@
 
 <!-- Custom styles for this template -->
 <link href="/assets/css/app.css" rel="stylesheet">
+<link href="/assets/css/dashboard.css" rel="stylesheet">
 
 <!-- Favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png?v=Omry633dkY">

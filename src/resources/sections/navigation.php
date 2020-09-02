@@ -2,30 +2,11 @@
     use DynamicalWeb\DynamicalWeb;
     use DynamicalWeb\HTML;
 ?>
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-
-    <img style="max-width:24px; margin-top: 2px; margin-right: 5px;" src="/assets/images/logo.svg">
-
-    <a class="navbar-brand" href="index">MongoViewer</a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">
+        <img style="max-width:24px; margin-top: 2px; margin-right: 5px;" src="/assets/images/logo.svg"> MongoViewer
+    </a>
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item <?PHP if(APP_CURRENT_PAGE == 'index'){ HTML::print("active"); } ?>">
-                <a class="nav-link" href="index"><?PHP HTML::print(TEXT_NAVBAR_PAGE_HOME); ?></a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?PHP HTML::print(TEXT_NAVBAR_LANGUAGE_DROPDOWN); ?></a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="<?PHP DynamicalWeb::getRoute('change_language', array('language' => 'en', 'cache' => hash('sha256', time())), true); ?>">English</a>
-                    <a class="dropdown-item" href="<?PHP DynamicalWeb::getRoute('change_language', array('language' => 'es', 'cache' => hash('sha256', time())), true); ?>">Español</a>
-                    <a class="dropdown-item" href="<?PHP DynamicalWeb::getRoute('change_language', array('language' => 'zh', 'cache' => hash('sha256', time())), true); ?>">中文</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-
 </nav>

@@ -6,7 +6,7 @@
         {"path": "/", "page": "index"}
     ],
     "libraries": {
-        "PpmExample": {
+        "MongoDB_Driver": {
             "package_name": "net.intellivoid.mongodb_driver",
             "version": "latest",
             "import_dependencies": true,
