@@ -3,21 +3,11 @@
     "debugging_mode": true,
     "enable_ppm": true,
     "router": [
-        {"path": "/", "page": "index"},
-        {"path": "/other", "page": "other"},
-        {"path": "/error", "page": "error"},
-        {"path": "/sub/other", "page": "sub_other"}
+        {"path": "/", "page": "index"}
     ],
     "libraries": {
-        "Example": {
-            "directory_name": "Example",
-            "autoloader": "ExampleLibrary.php",
-            "check_class_exists": true,
-            "namespace": "Example",
-            "main_class": "ExampleLibrary"
-        },
         "PpmExample": {
-            "package_name": "com.example.super_library",
+            "package_name": "net.intellivoid.mongodb_driver",
             "version": "latest",
             "import_dependencies": true,
             "throw_error": true
@@ -26,9 +16,9 @@
     "runtime_scripts": {
         "initialize": [],
         "on_page_load": [],
-        "page_loaded": ["engine_information.php"],
+        "page_loaded": [],
         "after_request": [],
-        "on_request": ["custom_headers.php"],
+        "on_request": [],
         "on_import": []
     }
 }

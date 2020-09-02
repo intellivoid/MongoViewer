@@ -1,0 +1,7 @@
+{
+  "Comment": "Rename this file to mongodb.json",
+  "Host": "<HOST>",
+  "Port": "<PORT>",
+  "Username": "<USERNAME>",
+  "Password": "<PASSWORD>"
+}
