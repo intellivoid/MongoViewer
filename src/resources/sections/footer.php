@@ -5,6 +5,6 @@
 ?>
 <footer class="footer">
     <div class="container">
-        <span class="text-muted"><?PHP HTML::print(TEXT_FOOTER_TEXT); ?></span>
+        <span class="text-muted">MongoViewer | Written by Zi Xing Narrakas</span>
     </div>
 </footer>
