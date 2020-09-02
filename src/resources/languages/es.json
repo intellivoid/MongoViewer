@@ -1,0 +1,23 @@
+{
+    "language": {
+        "name": "español",
+        "iso_639-1": "es"
+    },
+    "pages": {
+        "index": {
+            "PAGE_TITLE": "DynamicalWeb",
+            "HEADER": "DynamicalWeb Ejemplo",
+            "CONTENT": "Este ejemplo contiene varios usos para Dynamical Web con Bootstrap."
+        }
+    },
+    "sections": {
+        "navigation": {
+            "NAVBAR_BRAND": "DynamicalWeb",
+            "NAVBAR_LANGUAGE_DROPDOWN": "Idioma",
+            "NAVBAR_PAGE_HOME": "Home"
+        },
+        "footer": {
+            "FOOTER_TEXT": "DynamicalWeb versión 1.0.0.0 | Escrito por Zi Xing Narrakas"
+        }
+    }
+}
