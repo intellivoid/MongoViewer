@@ -10,14 +10,16 @@
 <link href="/assets/css/app.css" rel="stylesheet">
 
 <!-- Favicon -->
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png?v=Kmnq9jqpb7">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png?v=Kmnq9jqpb7">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png?v=Kmnq9jqpb7">
-<link rel="manifest" href="/assets/favicon/site.webmanifest?v=Kmnq9jqpb7">
-<link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg?v=Kmnq9jqpb7" color="#5bbad5">
-<link rel="shortcut icon" href="/assets/favicon/favicon.ico?v=Kmnq9jqpb7">
-<meta name="apple-mobile-web-app-title" content="DynamicalWeb">
-<meta name="application-name" content="DynamicalWeb">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-config" content="/assets/favicon/browserconfig.xml?v=Kmnq9jqpb7">
-<meta name="theme-color" content="#ffffff">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png?v=Omry633dkY">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png?v=Omry633dkY">
+<link rel="icon" type="image/png" sizes="194x194" href="/assets/favicon/favicon-194x194.png?v=Omry633dkY">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon/android-chrome-192x192.png?v=Omry633dkY">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png?v=Omry633dkY">
+<link rel="manifest" href="/assets/favicon/site.webmanifest?v=Omry633dkY">
+<link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg?v=Omry633dkY" color="#343a40">
+<link rel="shortcut icon" href="/assets/favicon/favicon.ico?v=Omry633dkY">
+<meta name="apple-mobile-web-app-title" content="MongoViewer">
+<meta name="application-name" content="MongoViewer">
+<meta name="msapplication-TileColor" content="#343a40">
+<meta name="msapplication-config" content="/assets/favicon/browserconfig.xml?v=Omry633dkY">
+<meta name="theme-color" content="#343a40">
