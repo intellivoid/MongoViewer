@@ -3,7 +3,8 @@
     "debugging_mode": true,
     "enable_ppm": true,
     "router": [
-        {"path": "/", "page": "index"}
+        {"path": "/", "page": "index"},
+        {"path": "/view/collection", "page": "view_collection"}
     ],
     "libraries": {
         "MongoDB_Driver": {
