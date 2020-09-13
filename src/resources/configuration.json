@@ -1,17 +1,18 @@
 {
     "primary_language": "en",
     "debugging_mode": true,
-    "enable_ppm": true,
+    "enable_ppm": false,
     "router": [
-        {"path": "/", "page": "index"},
-        {"path": "/view/collection", "page": "view_collection"}
+        {"path": "/92f3f752-4991-4424-a5f3-43febf0c8d2d/", "page": "index"},
+        {"path": "/92f3f752-4991-4424-a5f3-43febf0c8d2d/view/collection", "page": "view_collection"}
     ],
     "libraries": {
         "MongoDB_Driver": {
-            "package_name": "net.intellivoid.mongodb_driver",
-            "version": "latest",
-            "import_dependencies": true,
-            "throw_error": true
+            "directory_name": "MongoDB-Driver",
+            "autoloader": "MongoDB.php",
+            "check_class_exists": true,
+	    "namespace": "MongoDB",
+            "main_class": "MongoDB"
         }
     },
     "runtime_scripts": {

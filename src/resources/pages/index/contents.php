@@ -29,6 +29,7 @@
                                 </h6>
                                 <ul class="nav flex-column mb-2">
                                     <?PHP
+                                        sort($Collection[$database_name]);
                                         foreach($Collection[$database_name] as $collection_name)
                                         {
                                             ?>

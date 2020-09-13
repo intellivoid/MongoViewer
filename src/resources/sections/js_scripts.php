@@ -1,6 +1,19 @@
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-<script src="/assets/js/bootstrap.min.js"></script>
-<script src="/assets/js/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="/assets/js/feather.min.js"></script>
-<script src="/assets/js/Chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script
+			  src="https://code.jquery.com/jquery-3.5.1.min.js"
+			  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+			  crossorigin="anonymous"></script>
+<script>
+    $(function(){
+        $("td").click(function(){
+            if($(this).hasClass("td-active")) {
+                $(this).removeClass("td-active");
+            } else {
+                $(this).addClass("td-active");
+            }
+        })
+    });
+</script>
+<script src="/92f3f752-4991-4424-a5f3-43febf0c8d2d/assets/js/bootstrap.min.js"></script>
+<script src="/92f3f752-4991-4424-a5f3-43febf0c8d2d/assets/js/feather.min.js"></script>
+<script src="/92f3f752-4991-4424-a5f3-43febf0c8d2d/assets/js/Chart.min.js"></script>
