@@ -17,7 +17,7 @@
     },
     "runtime_scripts": {
         "initialize": [],
-        "on_page_load": [],
+        "on_page_load": ["authentication.php"],
         "page_loaded": [],
         "after_request": [],
         "on_request": [],

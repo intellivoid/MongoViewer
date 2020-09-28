@@ -1,0 +1,5 @@
+{
+  "require_authentication": true,
+  "username": "admin",
+  "password": "admin"
+}
