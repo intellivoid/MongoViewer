@@ -220,7 +220,7 @@
                 Actions::redirect(APP_HOME_PAGE);
             }, 'change_language');
 
-            self::$router->map('GET', '/92f3f752-4991-4424-a5f3-43febf0c8d2d/compiled_assets/js/[a:resource].js', function($resource){
+            self::$router->map('GET', '/compiled_assets/js/[a:resource].js', function($resource){
                 Javascript::loadResource($resource, false);
             }, 'resources_js');
 
@@ -240,7 +240,7 @@
                 }, '500');
             }
 
-            self::$router->map('GET', '/92f3f752-4991-4424-a5f3-43febf0c8d2d/compiled_assets/js/[a:resource].min.js', function($resource){
+            self::$router->map('GET', '/compiled_assets/js/[a:resource].min.js', function($resource){
                 Javascript::loadResource($resource, true);
             }, 'resources_min.js');
 
